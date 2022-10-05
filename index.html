@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS and it's Type</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color:rgb(250, 212, 212);
+            margin-left:20px;
+        }
+        .intro{
+            font-size: 21px;
+        }
+        .heading{
+            color:rgb(83, 13, 13);
+        }
+        .footer{
+            font-weight:bold;
+            text-align: center;
+            background-color: rgb(224, 101, 122);
+            font-size:24px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading">CSS and it's Types</h1>
+    <h2 class="heading-intro"> Introduction:</h2>
+    <p class="intro">CSS stands for cascading style sheets.
+CSS is used to design the website.When we have made the page by using HTML after that we need to design it so that our website can look attractive and interactive. It makes a website more user friendly.
+<br>
+By using faces we can change the colour ,we can change the size of the font, we can change the background colour  and much more.
+<br>So lets get into our basic CSS.
+<br><br>
+3 ways to add CSS into our web pages are as : 
+<br>
+<br>
+1) Inline CSS<br>
+2) Internal CSS<br>
+3) External CSS<br><br>
+
+Among above 3 ways,best way is adding CSS is External CSS.
+</br>
+<h2>1) Inline: </h2>
+<h3>
+Style attribute is used to add styling.
+Basically in this type of CSS we add style attribute into the tag which we want to design.<br><br>
+Example :suppose we want to change the color of text inside h1 tag.</h3><br>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ch1%2520style%253D%2522color%253Ared%253B%2522%253EHeading%253C%252Fh1%253E"
+  style="width: 354px; height: 223px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+</br>
+<h2>2) Internal:</h2>
+<h3> 
+In this type of CSS we do styling inside the head tag instead of writing style tag into an attribute individually which was very hectic.
+We can style multiple attributes at once by various ways like by using class name , element name and id name.
+<br><br>
+Example:Suppose we want to change the colour of whole body to red.</h3>
+<br>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Chead%253E%250A%2520%2520%2520%253Cstyle%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520body%2520%2520%2520%257Bcolor%253A%2520red%253B%257D%2520%250A%2520%2520%2520%253C%252Fstyle%253E%250A%250A%2520%253C%252Fhead%253E"
+  style="width: 354px; height: 316px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+</br>
+<h2>3) External CSS:</h2>
+<h3> 
+This is the best way out of the three ways.
+We do styling in other page which we save it as filename.css. 
+We link this page to our HTML page in which we want import the styling. This way is very useful when we want to style more than one page.
+
+<br><br>
+Example: 
+<br>
+<iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252F%2520in%2520style.css%2520page%2520%250A%250Abody%2520%257B%250A%2520%2520background-color%253A%2520pink%253B%250A%257D"
+  style="width: 354px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+</h3>
+    </p>
+
+    <footer class="footer">
+        Thankyou for reading my blog :-)
+    </footer>
+</body>
+</html>
